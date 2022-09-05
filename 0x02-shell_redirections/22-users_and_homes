@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "cat /etc/passwd | sort -k3"
+cut -: -f 1,6 /etc/passw | sort -d
